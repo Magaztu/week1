@@ -16,6 +16,6 @@
 .prettierignore
 
 # Extras
-.style-guide.md
-.README-old.md
-.README-template.md
+style-guide.md
+README-old.md
+README-template.md
