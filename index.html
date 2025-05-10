@@ -18,35 +18,39 @@
       src: url('assets/fonts/Figtree-VariableFont_wght.ttf'), format('ttf');
     }/* This is a CSS at-rule, starts with a */
 
-    .display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: max-content; place-self: center; margin-top: 50px; margin-bottom: 20px;}
+    .display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: max-content; place-self: center; margin-top: 50px; margin-bottom: 20px; z-index: 1; position: relative;}
+    .display-shadow {background-color: rgb(18, 18, 18); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: 350px; height: 500px; place-self: center; position: absolute;margin-top: 40px; margin-left: 15px;}
   </style>
 </head>
 <body style="background-color: rgb(244, 208, 78);">
-  <div class="display">
-    <div>
-      <!-- <input type="image" src="assets/images/illustration-article.svg" style="border-radius: 6px; margin-bottom: 19px;"> -->
-       <img src="assets/images/illustration-article.svg" alt="Decoration image" width="350" style="border-radius: 10px; margin-bottom: 17px;">
-    </div>
-    <div style="text-align: left; text-justify:distribute-all-lines; font-family: 'Figtree'">
-      <div style="padding-bottom: 12px;"> 
-        <div style="background-color: rgb(244, 208, 78); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; font-weight: 800; width: 91px; height: 27px; border-width: 2px; border-radius: 6px; text-align: center; padding-top: 6px;">
-          Learning
+  <div style="position: relative; display: grid; place-items: center;">
+    <div class="display">
+      <div>
+        <!-- <input type="image" src="assets/images/illustration-article.svg" style="border-radius: 6px; margin-bottom: 19px;"> -->
+         <img src="assets/images/illustration-article.svg" alt="Decoration image" width="350" style="border-radius: 10px; margin-bottom: 17px;">
+      </div>
+      <div style="text-align: left; text-justify:distribute-all-lines; font-family: 'Figtree'">
+        <div style="padding-bottom: 12px;"> 
+          <div style="background-color: rgb(244, 208, 78); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; font-weight: 800; width: 91px; height: 27px; border-width: 2px; border-radius: 6px; text-align: center; padding-top: 6px;">
+            Learning
+          </div>
+        </div>
+        <span style="font-weight: 500">Published 21 Dec 2023</span>
+        <h2 style="font-weight: 800; color: rgb(18, 18, 18);">
+          HTML & CSS foundations
+        </h2>
+        <p style="font-size: 16px; font-weight: 500; color: rgb(107, 107, 107); line-height: 1.4;">
+          These languages are the backbone of every <br> website, defining structure, content and <br> presentation.
+        </p>
+        <div style="display: flex;">
+          <img src="assets/images/image-avatar.webp" alt="Blog owner" width="34" height="34" style="margin-top: 9px; margin-right: 13px;">
+          <p style="font-size: 16px; font-weight: 800; color: rgb(18, 18, 18);">
+            Greg Hooper
+          </p>
         </div>
       </div>
-      <span style="font-weight: 500">Published 21 Dec 2023</span>
-      <h2 style="font-weight: 800; color: rgb(18, 18, 18);">
-        HTML & CSS foundations
-      </h2>
-      <p style="font-size: 16px; font-weight: 500; color: rgb(107, 107, 107); line-height: 1.4;">
-        These languages are the backbone of every <br> website, defining structure, content and <br> presentation.
-      </p>
-      <div style="display: flex;">
-        <img src="assets/images/image-avatar.webp" alt="Blog owner" width="34" height="34" style="margin-top: 9px; margin-right: 13px;">
-        <p style="font-size: 16px; font-weight: 800; color: rgb(18, 18, 18);">
-          Greg Hooper
-        </p>
-      </div>
     </div>
+    <div class="display-shadow"></div>
   </div>
   <div class="attribution">
     Learning
@@ -55,7 +59,7 @@
     
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Mathias Toala</a>.
+      Coded by <a href="https://github.com/Magaztu">Mathias Toala</a>.
     </div>
   </div>
 </body>
