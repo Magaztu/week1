@@ -12,21 +12,30 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    .display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 6px; size: 1px;}
+    @font-face {
+      font-family: Figtree;
+      src: url('assets/fonts/Figtree-VariableFont_wght.ttf'), format('ttf');
+    }/* This is a CSS at-rule, starts with a */
+
+    .display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 6px; padding: 19px; width: max-content;}
   </style>
 </head>
 <body style="background-color: rgb(244, 208, 78);">
   <div class="display">
-fewfewfewfefwefwf <br>
-efwewefw <br>wefew
-  </div>
-  <div style="text-align: center; text-justify:distribute-all-lines">
-    <h3>
-      HTML and CSS foundations
-    </h3>
-    <p>
-      These languages are the backbone of every <br> website, defining structure, content and <br> presentation.
-    </p>
+    <div style="text-align: left; text-justify:distribute-all-lines; font-family: 'Figtree'">
+      <div style="padding-bottom: 19px;"> 
+        <div style="background-color: rgb(244, 208, 78); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; font-weight: 800; width: 91px; height: 25px; border-width: 2px; border-radius: 6px; text-align: center; padding-top: 5px;">
+          Learning
+        </div>
+      </div>
+      <span>Published 21 Dec 2023</span>
+      <h3 style="font-weight: 800;">
+        HTML and CSS foundations
+      </h3>
+      <p style="font-size: 16px; font-weight: 500; color: rgb(107, 107, 107);">
+        These languages are the backbone of every <br> website, defining structure, content and <br> presentation.
+      </p>
+    </div>
   </div>
   <div class="attribution">
     Learning
