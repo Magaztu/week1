@@ -9,3 +9,28 @@ src: url('assets/fonts/Figtree-VariableFont_wght.ttf'), format('ttf');
 .display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: max-content; place-self: center; margin-top: 50px; margin-bottom: 20px; z-index: 1; position: relative;}
 
 .display-shadow {background-color: rgb(18, 18, 18); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: 350px; height: 500px; place-self: center; position: absolute;margin-top: 40px; margin-left: 15px;}
+
+.display-g-flex {display: flex}
+/* g here means general */
+
+.avatar{margin-top: 9px; margin-right: 13px;}
+
+.avatar-name-font{font-size: 16px; font-weight: 800; color: rgb(18, 18, 18);}
+
+.description-text-font{font-size: 16px; font-weight: 500; color: rgb(107, 107, 107); line-height: 1.4;}
+
+.title-font{font-weight: 800; color: rgb(18, 18, 18);}
+
+.font-weight-500{font-weight: 500}
+
+.tag-container{background-color: rgb(244, 208, 78); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; font-weight: 800; width: 91px; height: 27px; border-width: 2px; border-radius: 6px; text-align: center; padding-top: 6px;}
+
+.padding-b-12{padding-bottom: 12px;}
+
+.font-family{text-align: left; text-justify:distribute-all-lines; font-family: 'Figtree'}
+
+.shell-for-displays{position: relative; display: grid; place-items: center;}
+
+.thumbnail{border-radius: 10px; margin-bottom: 17px;}
+
+.background-color{background-color: rgb(244, 208, 78);}
