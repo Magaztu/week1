@@ -1,0 +1,11 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+font-family: Figtree;
+src: url('assets/fonts/Figtree-VariableFont_wght.ttf'), format('ttf');
+}/* This is a CSS at-rule, starts with a */
+
+.display {background-color: rgb(255, 255, 255); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: max-content; place-self: center; margin-top: 50px; margin-bottom: 20px; z-index: 1; position: relative;}
+
+.display-shadow {background-color: rgb(18, 18, 18); display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; border: solid; border-color: rgb(18, 18, 18); border-width: 2px; border-radius: 20px; padding: 21px; width: 350px; height: 500px; place-self: center; position: absolute;margin-top: 40px; margin-left: 15px;}
